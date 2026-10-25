@@ -1,0 +1,26 @@
+{
+  "name": "Vault-Tec Corporation Security ID Generator",
+  "short_name": "Vault-Tec ID",
+  "description": "Create authentic Vault-Tec Security IDs, employee credentials, and facility access keycards inspired by the Fallout universe.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07254A",
+  "theme_color": "#07254A",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

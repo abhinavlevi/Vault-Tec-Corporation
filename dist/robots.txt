@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vault-tec-security-id.vercel.app/sitemap.xml

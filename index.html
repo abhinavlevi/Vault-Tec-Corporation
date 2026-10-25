@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vault-Tec Corporation Security ID Generator | Prop Replica &amp; Keycard Studio</title>
+    <meta name="description" content="Generate authentic, high-resolution Vault-Tec Security IDs, employee credentials, and facility access keycards inspired by the Fallout universe. 3× print-ready PNG download, interactive photo framing, and dual-sided CR-80 card preview." />
+    <meta name="keywords" content="Vault-Tec ID generator, Fallout badge maker, Vault 33 security badge, Lucy MacLean ID, Vault Dweller keycard, prop replica, CR-80 card generator" />
+
+    <!-- OpenGraph & Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Vault-Tec Corporation ID Studio" />
+    <meta property="og:title" content="Vault-Tec Corporation Security ID Generator" />
+    <meta property="og:description" content="Create authentic Vault-Tec Security IDs, employee credentials, and facility access keycards inspired by the Fallout universe. 3× print-ready PNG download." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://vault-tec-security-id.vercel.app/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vault-Tec Corporation Security ID Generator" />
+    <meta name="twitter:description" content="Design authentic Vault-Tec personnel badges &amp; facility access keycards. Print-ready 3× PNGs and browser-local privacy." />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Favicons & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#07254A" />
+
+    <!-- GEO Metadata (Vault-Tec Corporate Regional Headquarters) -->
+    <meta name="geo.region" content="US-MA" />
+    <meta name="geo.placename" content="Boston, Massachusetts - Vault-Tec Regional Headquarters" />
+    <meta name="geo.position" content="42.3601;-71.0589" />
+    <meta name="ICBM" content="42.3601, -71.0589" />
+
+    <!-- Google Web Fonts: Oswald, Chakra Petch, Share Tech Mono, Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700;900&family=Share+Tech+Mono&display=swap" 
+      rel="stylesheet" 
+    />
+
+    <!-- Schema.org WebApplication JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Vault-Tec Corporation Security ID Generator",
+      "alternateName": "Vault-Tec Badge Creator",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "All modern web browsers",
+      "description": "High-fidelity single-page web studio for designing authentic Vault-Tec employee badges, research credentials, and facility access keycards with browser-local photo framing, 3D card flip, and print-ready 3× PNG download.",
+      "browserRequirements": "Requires JavaScript. Requires HTML5 Canvas.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "CR-80 standard card aspect ratio (320x490 vertical, 500x315 horizontal)",
+        "Curated presets for Lucy MacLean, Hank MacLean, and Cooper Howard",
+        "Browser-local photo upload with interactive zoom and pan controls",
+        "3D dual-sided flip animation for card front and reverse",
+        "Print-ready 3× high-resolution PNG export (300 DPI)",
+        "Scannable Code 128 barcodes and dynamic QR codes",
+        "Synthesized Web Audio terminal and tactile click effects"
+      ]
+    }
+    </script>
+
+    <!-- Schema.org FAQPage JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the exact dimensions of the exported Vault-Tec ID badges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The badges export at a 3× pixel ratio: 960 × 1470 px for Vertical Staff Credentials and 1500 × 945 px for Horizontal Facility Access Keycards, corresponding to standard ISO/IEC 7810 ID-1 (CR-80) physical card dimensions at 300 DPI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my uploaded portrait photo sent to any server?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. All photo processing, framing, zoom, pan, and PNG rendering take place 100% locally within your web browser using HTML5 FileReader and Canvas APIs. No images or private personal data are ever uploaded or transmitted to any server."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I print a physical prop replica ID card?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download both Front and Back PNGs at 3× resolution. You can print them onto standard 30-mil PVC plastic card stock with a dye-sublimation ID printer (such as Fargo, Zebra, or Magicard), or print on glossy photo paper and laminate using a 10-mil pouch."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
